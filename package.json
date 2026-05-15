@@ -21,8 +21,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "npm exec vite build",
-    "preview": "vite preview",
-    "build-fallback": "node build.js"
+    "build": "node build.js",
+    "preview": "vite preview"
   }
 }
